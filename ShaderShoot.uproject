@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{A1012673-4FAB-C976-89FB-93B3CE1F2E41}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ShaderShoot",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

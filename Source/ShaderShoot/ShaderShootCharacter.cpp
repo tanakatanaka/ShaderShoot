@@ -7,7 +7,9 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
-
+#include "Kismet/GameplayStatics.h"
+#include "ActorSpawner.h"
+#include "ActorToSpawn.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AShaderShootCharacter
@@ -72,7 +74,35 @@ void AShaderShootCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("Look Up / Down Mouse", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn Right / Left Gamepad", this, &AShaderShootCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("Look Up / Down Gamepad", this, &AShaderShootCharacter::LookUpAtRate);
+	PlayerInputComponent->BindAction("SpawnActors", IE_Pressed, this, &AShaderShootCharacter::SpawnActors);
+	PlayerInputComponent->BindAction("DestroyActors", IE_Pressed, this, &AShaderShootCharacter::DestroyActors);
 }
+
+void AShaderShootCharacter::SpawnActors()
+{
+	UE_LOG(LogTemp, Warning, TEXT("output : %s"), L"SPawnActor");
+
+	//Find the Actor Spawner in the world, and invoke it's Spawn Actor function
+	AActor* ActorSpawnerTofind = UGameplayStatics::GetActorOfClass(GetWorld(), AActorSpawner::StaticClass());
+
+	AActorSpawner* ActorSpawnerReference = Cast<AActorSpawner>(ActorSpawnerTofind);
+	if (ActorSpawnerReference)
+	{
+		ActorSpawnerReference->SpawnActor();
+	}
+}
+
+void AShaderShootCharacter::DestroyActors()
+{
+	//Get every Actor to Spawn in the world and invoke Destroy Actor
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AActorToSpawn::StaticClass(), FoundActors);
+	for (AActor* ActorFound : FoundActors)
+	{
+		ActorFound->Destroy();
+	}
+}
+
 
 void AShaderShootCharacter::OnPrimaryAction()
 {

@@ -35,6 +35,8 @@ public:
 
 protected:
 	virtual void BeginPlay();
+	void SpawnActors();
+	void DestroyActors();
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

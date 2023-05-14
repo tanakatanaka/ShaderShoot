@@ -2,6 +2,8 @@
 
 
 #include "Target.h"
+#include "../ShaderShootProjectile.h"
+#define UE_LOG(CategoryName, Verbosity, Format, ...)
 
 // Sets default values
 ATarget::ATarget()
@@ -27,7 +29,10 @@ void ATarget::Tick(float DeltaTime)
 
 void  ATarget::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
 {
-	Super::NotifyHit( MyComp, Other, OtherComp, bSelfMoved, HitLocation, HitNormal, NormalImpulse, Hit);
+	Super::NotifyHit(MyComp, Other, OtherComp, bSelfMoved, HitLocation, HitNormal, NormalImpulse, Hit);
 	
-	K2_DestroyActor();
+	if (AShaderShootProjectile* RotatingActorCheck = Cast<AShaderShootProjectile>(Other)) 
+	{
+		K2_DestroyActor();
+	}
 }

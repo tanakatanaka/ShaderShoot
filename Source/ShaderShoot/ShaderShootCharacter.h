@@ -32,6 +32,7 @@ class AShaderShootCharacter : public ACharacter
 
 public:
 	AShaderShootCharacter();
+	void UpdateTargetCondition();
 
 protected:
 	virtual void BeginPlay();
@@ -46,6 +47,7 @@ public:
 	/** Delegate to whom anyone can subscribe to receive this event */
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
 	FOnUseItem OnUseItem;
+
 protected:
 	
 	/** Fires a projectile. */
@@ -100,6 +102,8 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+	
+	
 
 };
 

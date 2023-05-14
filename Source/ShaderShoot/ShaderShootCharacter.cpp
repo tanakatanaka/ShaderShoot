@@ -177,3 +177,8 @@ bool AShaderShootCharacter::EnableTouchscreenMovement(class UInputComponent* Pla
 	
 	return false;
 }
+
+void AShaderShootCharacter::UpdateTargetCondition()
+{
+	//GetAllActorsOfClass(const UObject* WorldContextObject, TSubclassOf<AActor> ActorClass, TArray<AActor*>& OutActors);
+}

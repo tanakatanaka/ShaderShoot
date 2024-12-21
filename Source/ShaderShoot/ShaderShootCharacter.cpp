@@ -137,8 +137,11 @@ void AShaderShootCharacter::EndTouch(const ETouchIndex::Type FingerIndex, const 
 
 void AShaderShootCharacter::MoveForward(float Value)
 {
-		FVector streateVector(1.0f, 0.0f, 0.0f);
-		AddMovementInput(streateVector, 1.0f);
+	if (Value != 0.0f)
+	{
+		// add movement in that direction
+		AddMovementInput(GetActorForwardVector(), Value);
+	}
 }
 
 void AShaderShootCharacter::MoveRight(float Value)

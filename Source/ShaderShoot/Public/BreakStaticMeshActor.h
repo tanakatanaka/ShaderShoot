@@ -15,12 +15,14 @@ class SHADERSHOOT_API ABreakStaticMeshActor : public AStaticMeshActor
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(VisibleAnywhere, Category = "Stats")
-		void Initialize();
+	ABreakStaticMeshActor();
 
-	UPROPERTY(VisibleAnywhere, Category = "Stats")
-		int Health;
+	UFUNCTION(BlueprintCallable, Category = "BreakActor")
+	void DamagedAction();
 
+	UFUNCTION(BlueprintCallable, Category = "BreakActor")
+	bool	IsBroken();
 
-
+	UPROPERTY(EditAnywhere, Category = "BreakActor")
+	int Health;
 };

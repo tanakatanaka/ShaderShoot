@@ -37,7 +37,7 @@ AShaderShootCharacter::AShaderShootCharacter()
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
-	isDash = false;
+	_isDash = false;
 }
 
 void AShaderShootCharacter::BeginPlay()
@@ -145,14 +145,14 @@ void AShaderShootCharacter::MoveForward(float Value)
 	if (Value != 0.0f)
 	{
 		// add movement in that direction
-		FVector Direction(10,10,10);
+		float speed = 1.0f;
 		
-		if (isDash)
+		if (_isDash)
 		{
-			
+			speed = 2.0f;
 		}
 
-		AddMovementInput(GetActorForwardVector(), Value);
+		AddMovementInput(GetActorForwardVector(), Value * speed);
 	}
 }
 
@@ -197,10 +197,10 @@ void AShaderShootCharacter::UpdateTargetCondition()
 
 void AShaderShootCharacter::DashStart()
 {
-	isDash = true;
+	_isDash = true;
 }
 
 void AShaderShootCharacter::DashStop()
 {
-	isDash = false;
+	_isDash = false;
 }

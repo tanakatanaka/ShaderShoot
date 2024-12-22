@@ -107,6 +107,6 @@ public:
 	void DashStop();
 
 private:
-	bool isDash;
+	bool _isDash;
 };
 

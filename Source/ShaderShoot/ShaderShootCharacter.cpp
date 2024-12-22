@@ -37,6 +37,7 @@ AShaderShootCharacter::AShaderShootCharacter()
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
+	isDash = false;
 }
 
 void AShaderShootCharacter::BeginPlay()
@@ -56,6 +57,10 @@ void AShaderShootCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	// Bind jump events
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AShaderShootCharacter::DashStart);
+	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AShaderShootCharacter::DashStop);
+
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &AShaderShootCharacter::OnPrimaryAction);
@@ -140,6 +145,13 @@ void AShaderShootCharacter::MoveForward(float Value)
 	if (Value != 0.0f)
 	{
 		// add movement in that direction
+		FVector Direction(10,10,10);
+		
+		if (isDash)
+		{
+			
+		}
+
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
 }
@@ -181,4 +193,14 @@ bool AShaderShootCharacter::EnableTouchscreenMovement(class UInputComponent* Pla
 void AShaderShootCharacter::UpdateTargetCondition()
 {
 	//GetAllActorsOfClass(const UObject* WorldContextObject, TSubclassOf<AActor> ActorClass, TArray<AActor*>& OutActors);
+}
+
+void AShaderShootCharacter::DashStart()
+{
+	isDash = true;
+}
+
+void AShaderShootCharacter::DashStop()
+{
+	isDash = false;
 }

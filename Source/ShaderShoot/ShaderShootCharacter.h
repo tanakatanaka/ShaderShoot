@@ -51,6 +51,7 @@ public:
 protected:
 	
 	/** Fires a projectile. */
+	UFUNCTION()
 	void OnPrimaryAction();
 
 	/** Handles moving forward/backward */

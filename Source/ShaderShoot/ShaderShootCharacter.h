@@ -48,11 +48,11 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Interaction")
 	FOnUseItem OnUseItem;
 
-protected:
-	
 	/** Fires a projectile. */
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "Custom")
 	void OnPrimaryAction();
+
+protected:
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

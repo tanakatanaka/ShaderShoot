@@ -58,8 +58,8 @@ void AShaderShootCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
-	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AShaderShootCharacter::DashStart);
-	PlayerInputComponent->BindAction("Dash", IE_Released, this, &AShaderShootCharacter::DashStop);
+	PlayerInputComponent->BindAction("DASH", IE_Pressed, this, &AShaderShootCharacter::DashStart);
+	PlayerInputComponent->BindAction("DASH", IE_Released, this, &AShaderShootCharacter::DashStop);
 
 
 	// Bind fire event

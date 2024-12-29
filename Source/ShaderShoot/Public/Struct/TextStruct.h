@@ -7,6 +7,12 @@
 /**
  * 
  */
+UENUM(BlueprintType)
+enum class EReasionState : uint8
+{
+    JP = 0 UMETA(DisplayName = "JP"),
+    EN = 1  UMETA(DisplayName = "EN"),
+};
 
 USTRUCT(BlueprintType)
 struct FTextStruct : public FTableRowBase

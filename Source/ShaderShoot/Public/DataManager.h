@@ -17,4 +17,9 @@ public:
 	void Initialize();
 
 	TArray<FTextStruct*> MenuTextParamList;
+
+private:
+	void SetupTextDB();
+
+
 };

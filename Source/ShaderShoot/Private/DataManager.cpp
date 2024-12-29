@@ -6,6 +6,12 @@
 // Sets default values
 void ADataManager::Initialize()
 {
+    SetupTextDB();
+}
+
+void ADataManager::SetupTextDB()
+{
+
     // Data Tableアセットを取得
     UDataTable* LoadedDataTable = Cast<UDataTable>(StaticLoadObject(UDataTable::StaticClass(), nullptr, TEXT("/Game/StylishCombatKit/Struct/TextTable/DT_MenuText.DT_MenuText")));
 
@@ -21,6 +27,6 @@ void ADataManager::Initialize()
     {
         UE_LOG(LogTemp, Error, TEXT("Failed to load DataTable in BeginPlay! Check the path or DataTable settings."));
     }
-
 }
+
 

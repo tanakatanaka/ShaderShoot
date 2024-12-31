@@ -28,6 +28,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	float GetSP();
 
+	UFUNCTION(BlueprintCallable)
+	bool CheckSP(float point);
+
+	UFUNCTION(BlueprintCallable)
+	bool CheckHP(float point);
+
 private:
 	float _hp;
 	float _sp;

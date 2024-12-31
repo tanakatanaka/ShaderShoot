@@ -18,6 +18,25 @@ void APlayerInfo::SetupBaseParam()
 	_sp = _maxsp;
 }
 
+bool APlayerInfo::CheckSP(float point)
+{
+	if (_sp + point < 0)
+	{
+		return false;
+	}
+
+	return true;
+}
+
+bool APlayerInfo::CheckHP(float point)
+{
+	if (_hp + point < 0)
+	{
+		return false;
+	}
+
+	return true;
+}
 
 
 

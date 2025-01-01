@@ -19,25 +19,33 @@ public:
 	void SetupBaseParam();
 
 	UFUNCTION(BlueprintCallable)
-	void UpdateHP(float hp);
+	FORCEINLINE void UpdateHP(int hp) { _hp = hp; }
+	
 	UFUNCTION(BlueprintCallable)
-	void UpdateSp(float sp);
+	FORCEINLINE void UpdateSp(int sp) { _sp = sp; }
 
 	UFUNCTION(BlueprintCallable)
-	float GetHP();
-	UFUNCTION(BlueprintCallable)
-	float GetSP();
+	FORCEINLINE  int GetHP() { return _hp;}
 
 	UFUNCTION(BlueprintCallable)
-	bool CheckSP(float point);
+	FORCEINLINE int GetSP() { return _sp; }
 
 	UFUNCTION(BlueprintCallable)
-	bool CheckHP(float point);
+	FORCEINLINE  int GetMaxHP() { return _maxhp; }
+
+	UFUNCTION(BlueprintCallable)
+	FORCEINLINE int GetMaxSP() { return _maxsp; }
+
+	UFUNCTION(BlueprintCallable)
+	bool CheckSP(int point);
+
+	UFUNCTION(BlueprintCallable)
+	bool CheckHP(int point);
 
 private:
-	float _hp;
-	float _sp;
-	float _maxhp;
-	float _maxsp;
+	int _hp;
+	int _sp;
+	int _maxhp;
+	int _maxsp;
 
 };

@@ -18,7 +18,7 @@ void APlayerInfo::SetupBaseParam()
 	_sp = _maxsp;
 }
 
-bool APlayerInfo::CheckSP(float point)
+bool APlayerInfo::CheckSP(int point)
 {
 	if (_sp + point < 0)
 	{
@@ -28,7 +28,7 @@ bool APlayerInfo::CheckSP(float point)
 	return true;
 }
 
-bool APlayerInfo::CheckHP(float point)
+bool APlayerInfo::CheckHP(int point)
 {
 	if (_hp + point < 0)
 	{
@@ -36,28 +36,6 @@ bool APlayerInfo::CheckHP(float point)
 	}
 
 	return true;
-}
-
-
-
-void APlayerInfo::UpdateHP(float hp)
-{
-	_hp = hp;
-}
-
-void APlayerInfo::UpdateSp(float sp)
-{
-	_sp = sp;
-}
-
-float APlayerInfo::GetHP()
-{
-	return _hp;
-}
-
-float APlayerInfo::GetSP()
-{
-	return _sp;
 }
 
 

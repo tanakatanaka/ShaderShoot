@@ -19,6 +19,9 @@ public:
 	void SetupBaseParam();
 
 	UFUNCTION(BlueprintCallable)
+	void AutoRecoverSP(float deltaTime);
+
+	UFUNCTION(BlueprintCallable)
 	FORCEINLINE void UpdateHP(int hp) { _hp = hp; }
 	
 	UFUNCTION(BlueprintCallable)
@@ -47,5 +50,8 @@ private:
 	int _sp;
 	int _maxhp;
 	int _maxsp;
+
+	float _startTime;
+	float _totalTime;
 
 };

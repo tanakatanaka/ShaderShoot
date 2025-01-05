@@ -63,7 +63,7 @@ void AShaderShootCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &AShaderShootCharacter::OnPrimaryAction);
+	//PlayerInputComponent->BindAction("PrimaryAction", IE_Pressed, this, &AShaderShootCharacter::OnPrimaryAction);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);

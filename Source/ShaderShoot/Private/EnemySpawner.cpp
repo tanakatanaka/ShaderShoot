@@ -11,17 +11,25 @@ AEnemySpawner::AEnemySpawner()
 
 }
 
-// Called when the game starts or when spawned
-void AEnemySpawner::BeginPlay()
+
+bool AEnemySpawner::IsSpawnTime(float deltatime)
 {
-	Super::BeginPlay();
-	
+	if (_totalTime <= 0)
+	{
+		_startTime = deltatime;
+		_totalTime = _startTime;
+		return false;
+	}
+
+	_totalTime = deltatime + _totalTime;
+
+	if (_totalTime > 10.0)
+	{
+		_totalTime = 0;
+		return true;
+	}
+
+	return false;
 }
 
-// Called every frame
-void AEnemySpawner::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
 

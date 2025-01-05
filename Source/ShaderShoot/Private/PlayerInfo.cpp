@@ -20,7 +20,7 @@ void APlayerInfo::SetupBaseParam()
 	_sp = _maxsp;
 }
 
-void APlayerInfo::AutoRecoverSP(float deltatime)
+void APlayerInfo::AutoRecoverSP(float recoverTime, float deltaTime)
 {
 	if (_hp <= 0)
 	{
@@ -29,12 +29,12 @@ void APlayerInfo::AutoRecoverSP(float deltatime)
 
 	if (_totalTime <= 0)
 	{
-		_startTime = deltatime;
+		_startTime = deltaTime;
 		_totalTime = _startTime;
 		return;
 	}
 
-	_totalTime = deltatime + _totalTime;
+	_totalTime = deltaTime + _totalTime;
 
 	bool recoverFlag = false;
 

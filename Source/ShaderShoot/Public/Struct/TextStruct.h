@@ -30,5 +30,11 @@ public:
         FString JPText;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TextStruct")
+        FString JPText2;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TextStruct")
         FString ENText;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TextStruct")
+        FString ENText2;
 };

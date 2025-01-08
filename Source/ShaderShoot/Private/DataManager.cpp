@@ -31,9 +31,10 @@ void ADataManager::SetupTextDB()
 }
 
 
-FString ADataManager::GetTableText(EReasionState region, FString textID)
+TArray<FString> ADataManager::GetTableText(EReasionState region, FString textID)
 {
     FTextStruct* tmpTextParam = nullptr;
+    TArray<FString> tmpTextArray;
 
     for (FTextStruct* textParam : TextParamList)
     {
@@ -44,21 +45,19 @@ FString ADataManager::GetTableText(EReasionState region, FString textID)
         }
     }
 
-    if (tmpTextParam == nullptr)
-    {
-        return "";
-    }
-
     switch (region)
     {
     case EReasionState::JP:
-        return tmpTextParam->JPText;
+        tmpTextArray.Add(tmpTextParam->JPText);
+        tmpTextArray.Add(tmpTextParam->JPText2);
         break;
+        
     case EReasionState::EN:
-        return tmpTextParam->ENText;
-        break;
+         tmpTextArray.Add(tmpTextParam->ENText);
+         tmpTextArray.Add(tmpTextParam->ENText2);
+         break;
     }
 
-    return "";
+    return tmpTextArray;
 }
 

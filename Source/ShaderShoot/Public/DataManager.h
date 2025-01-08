@@ -17,7 +17,7 @@ public:
 	void Setup();
 
 	UFUNCTION(BlueprintCallable)
-	FString GetTableText(EReasionState region, FString textID);
+	TArray<FString> GetTableText(EReasionState region, FString textID);
 
 private:
 	void SetupTextDB();

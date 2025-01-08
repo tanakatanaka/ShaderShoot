@@ -45,6 +45,14 @@ TArray<FString> ADataManager::GetTableText(EReasionState region, FString textID)
         }
     }
 
+    if (tmpTextParam == nullptr)
+    {
+        tmpTextArray.Add("");
+        tmpTextArray.Add("");
+        return tmpTextArray;
+    }
+
+
     switch (region)
     {
     case EReasionState::JP:

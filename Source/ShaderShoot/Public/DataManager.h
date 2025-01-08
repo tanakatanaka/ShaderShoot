@@ -14,12 +14,14 @@ class SHADERSHOOT_API ADataManager : public AActor
 	
 public:	
 	UFUNCTION(BlueprintCallable)
-	void Initialize();
+	void Setup();
 
-	TArray<FTextStruct*> MenuTextParamList;
+	UFUNCTION(BlueprintCallable)
+	FString GetTableText(EReasionState region, FString textID);
 
 private:
 	void SetupTextDB();
 
+	TArray<FTextStruct*> TextParamList;
 
 };

@@ -123,7 +123,7 @@ void AShaderShootCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, cons
 	}
 	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
 	{
-		OnPrimaryAction();
+		//OnPrimaryAction();
 	}
 	TouchItem.bIsPressed = true;
 	TouchItem.FingerIndex = FingerIndex;

@@ -20,7 +20,7 @@ void APlayerInfo::SetupBaseParam()
 	_sp = _maxsp;
 }
 
-void APlayerInfo::AutoRecoverSP(float recoverTime, float deltaTime)
+void APlayerInfo::AutoRecoverSP(int healPoint, float recoverTime, float deltaTime)
 {
 	if (_hp <= 0)
 	{
@@ -38,7 +38,7 @@ void APlayerInfo::AutoRecoverSP(float recoverTime, float deltaTime)
 
 	bool recoverFlag = false;
 
-	if (_totalTime > 10.0)
+	if (_totalTime > recoverTime)
 	{
 		_totalTime = 0;
 		recoverFlag = true;
@@ -49,13 +49,13 @@ void APlayerInfo::AutoRecoverSP(float recoverTime, float deltaTime)
 		return;
 	}
 
-	if (_sp + 10 > _maxsp)
+	if (_sp + healPoint > _maxsp)
 	{
 		UpdateSp(_maxsp);
 	}
 	else
 	{
-		UpdateSp(_sp + 10);
+		UpdateSp(_sp + healPoint);
 	}
 
 

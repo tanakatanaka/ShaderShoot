@@ -1,0 +1,346 @@
+[
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\ActorSpawner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\ActorToSpawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\BreakStaticMeshActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\DataManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\EnemySpawner.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\PlayerInfo.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\PointCounter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\ShaderShootGameInstance.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\ShaderShootHUD.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\Struct\\TextStruct.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\Target.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\TargetManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\TextStructer.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\UI\\MenuUserWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Private\\UI\\ShooterUserWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\ActorSpawner.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\ActorToSpawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\BreakStaticMeshActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\DataManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\EnemySpawner.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\PlayerInfo.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\PointCounter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\ShaderShootGameInstance.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\ShaderShootHUD.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\Struct\\TextStruct.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\Target.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\TargetManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\TextStructer.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\UI\\MenuUserWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\Public\\UI\\ShooterUserWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShoot.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShoot.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShoot.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\ShaderShootProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\TP_PickUpComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\TP_PickUpComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\TP_WeaponComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Source\\ShaderShoot\\TP_WeaponComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\.vscode\\compileCommands_ShaderShoot\\ShaderShoot.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	}
+]

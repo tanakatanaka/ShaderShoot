@@ -1,0 +1,1315 @@
+{
+	"folders": [
+		{
+			"name": "ShaderShoot",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "C:\\Program Files\\Epic Games\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "ShaderShoot Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Win64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Linux Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot Linux Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot Linux Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"Linux",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot LinuxArm64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot LinuxArm64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot LinuxArm64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot LinuxArm64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Test",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShoot LinuxArm64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShoot LinuxArm64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShoot",
+					"LinuxArm64",
+					"Shipping",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Win64",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Linux Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Debug",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Linux DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"DebugGame",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ShaderShootEditor Linux Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "ShaderShootEditor Linux Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"ShaderShootEditor",
+					"Linux",
+					"Development",
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch ShaderShoot (Debug)",
+				"request": "launch",
+				"program": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "ShaderShoot Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShoot (DebugGame)",
+				"request": "launch",
+				"program": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "ShaderShoot Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShoot (Development)",
+				"request": "launch",
+				"program": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "ShaderShoot Win64 Development Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShoot (Test)",
+				"request": "launch",
+				"program": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "ShaderShoot Win64 Test Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShoot (Shipping)",
+				"request": "launch",
+				"program": "C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "ShaderShoot Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShootEditor (Debug)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "ShaderShootEditor Win64 Debug Build",
+				"args": [
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShootEditor (DebugGame)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "ShaderShootEditor Win64 DebugGame Build",
+				"args": [
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch ShaderShootEditor (Development)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "ShaderShootEditor Win64 Development Build",
+				"args": [
+					"C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=C:\\Users\\tanaka_t\\Documents\\ShaderShoot\\ShaderShoot.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+			}
+		]
+	}
+}
